@@ -41,12 +41,9 @@ Loss function and optimizer:
 - loss function: MSEloss
 
 ## RESULTS
-![GitHub Logo](/assets/accuracy.PNG)
+The model loss in only 100 epochs :\
+![GitHub Logo](/assets/loss.PNG)
 
-
-The model could reach in only 60 epochs :\
-training accuracy = 0.9869
-testing accuracy = 1.0
 
 #### REFERENCES
 https://arxiv.org/pdf/1905.11946.pdf \
