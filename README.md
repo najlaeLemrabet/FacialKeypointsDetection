@@ -42,7 +42,7 @@ Loss function and optimizer:
 
 ## RESULTS
 The model loss in only 100 epochs :\
-![GitHub Logo](/assets/loss.PNG)
+![GitHub Logo](/assets/loss.PNG)\
 Here is one exaple of keypoint detection performed by the trained model :\
 ![GitHub Logo](/assets/result.PNG)
 
