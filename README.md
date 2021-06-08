@@ -26,5 +26,32 @@ each is a csv file containing the image and the keypoints of :\
 <p float="left">
   <img src="/assets/annotated_image.PNG" width="200"  height="200" title="NORMAL" />
 </p>
-Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
+Kaggle Dataset : https://www.kaggle.com/c/facial-keypoints-detection/data
 
+## TRAINING
+I used efficientnet-b0 pretrained model (as described in the original paper below) to speed up the training.
+
+Hyperparameters:
+- learning rate = 1e-5
+- batch size = 16
+- image size = 96
+
+Loss function and optimizer:
+- optimizer:
+  - generator : Adam
+  - optimizer : Adam
+- loss function:
+  - generator : BCE + L1_loss * L1_lambda
+  - discriminator : BCE
+
+## RESULTS
+![GitHub Logo](/assets/accuracy.PNG)
+
+
+The model could reach in only 60 epochs :\
+training accuracy = 0.9869
+testing accuracy = 1.0
+
+#### REFERENCES
+https://arxiv.org/pdf/1905.11946.pdf
+https://pypi.org/project/efficientnet-pytorch/
