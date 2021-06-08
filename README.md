@@ -37,12 +37,8 @@ Hyperparameters:
 - image size = 96
 
 Loss function and optimizer:
-- optimizer:
-  - generator : Adam
-  - optimizer : Adam
-- loss function:
-  - generator : BCE + L1_loss * L1_lambda
-  - discriminator : BCE
+- optimizer: Adam
+- loss function: MSEloss
 
 ## RESULTS
 ![GitHub Logo](/assets/accuracy.PNG)
