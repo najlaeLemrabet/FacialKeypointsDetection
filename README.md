@@ -49,5 +49,5 @@ training accuracy = 0.9869
 testing accuracy = 1.0
 
 #### REFERENCES
-https://arxiv.org/pdf/1905.11946.pdf
+https://arxiv.org/pdf/1905.11946.pdf\
 https://pypi.org/project/efficientnet-pytorch/
