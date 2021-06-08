@@ -33,7 +33,7 @@ I used efficientnet-b0 pretrained model (as described in the original paper belo
 
 Hyperparameters:
 - learning rate = 1e-5
-- batch size = 16
+- batch size = 32
 - image size = 96
 
 Loss function and optimizer:
