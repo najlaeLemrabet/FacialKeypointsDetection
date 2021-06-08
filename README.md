@@ -7,7 +7,7 @@ The repository includes:
 
 ## DATASET
 The dataset from kaggle contained 2 directories : train, test
-each is a csv file containing the image and the keypoints of :\
+each is a csv file containing the image and the keypoints of :
 
 - ***3 keypoints for each right and left eye:****
 'left_eye_center_x', 'left_eye_center_y', 'right_eye_center_x', 'right_eye_center_y', 'left_eye_inner_corner_x', 'left_eye_inner_corner_y', 'left_eye_outer_corner_x', 'left_eye_outer_corner_y', 'right_eye_inner_corner_x', 'right_eye_inner_corner_y', 'right_eye_outer_corner_x', 'right_eye_outer_corner_y', 
@@ -43,7 +43,8 @@ Loss function and optimizer:
 ## RESULTS
 The model loss in only 100 epochs :\
 ![GitHub Logo](/assets/loss.PNG)
-
+Here is one exaple of keypoint detection performed by the trained model :\
+![GitHub Logo](/assets/result.PNG)
 
 #### REFERENCES
 https://arxiv.org/pdf/1905.11946.pdf \
