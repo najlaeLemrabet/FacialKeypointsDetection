@@ -2,8 +2,9 @@
 
 In this repository a regressor was trained to predict keypoint positions on face images, a 15 keypoints representing the various coordinates on the human face. 
 The repository includes:
-- jupyter notebook containing all the steps: data loading ,data preprocessing, training, testinh
+- jupyter notebook containing all the steps: data loading ,data preprocessing, training, testing
 - Pre-trained weights
+- checkpoint file 
 
 ## DATASET
 The dataset from kaggle contained 2 directories : train, test
@@ -32,8 +33,8 @@ Kaggle Dataset : https://www.kaggle.com/c/facial-keypoints-detection/data
 I used efficientnet-b0 pretrained model (as described in the original paper below) to speed up the training.
 
 Hyperparameters:
-- learning rate = 1e-5
-- batch size = 32
+- learning rate = 1e-4
+- batch size = 64
 - image size = 96
 
 Loss function and optimizer:
@@ -41,7 +42,7 @@ Loss function and optimizer:
 - loss function: MSEloss
 
 ## RESULTS
-The model loss in only 100 epochs :\
+The model loss in 100 epochs :\
 ![GitHub Logo](/assets/loss.PNG)\
 Here is one exaple of keypoint detection performed by the trained model :\
 ![GitHub Logo](/assets/result.PNG)
