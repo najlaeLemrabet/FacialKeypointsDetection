@@ -4,6 +4,7 @@ In this repository a regressor was trained to predict keypoint positions on face
 The repository includes:
 - jupyter notebook containing all the steps: data loading ,data preprocessing, training, testinh
 - Pre-trained weights
+- checkpoint file 
 
 ## DATASET
 The dataset from kaggle contained 2 directories : train, test
